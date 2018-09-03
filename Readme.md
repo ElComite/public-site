@@ -19,8 +19,8 @@ yarn docs:dev
 
 ## Generar el código del sitio estático
 
-Mediante el siguiente comando, se generará todo el código en un directorio /www.  
-Este código se podrá subir a cualquier servidor web capaz de servir html.  
+Mediante el siguiente comando, se generará todo el código en un directorio llamado www en la raíz del proyecto.  
+El contenido de ese directorio es en sí todo el sitio web que se podrá subir a cualquier servidor web capaz de servir html.  
 ```bash
 yarn docs:build
 ```

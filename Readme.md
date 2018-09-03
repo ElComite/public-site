@@ -3,7 +3,7 @@
 
 ## Instalación
 
-Se requiere tener instalado yarn en el equipo para instalar el proyecto.  
+Se requiere (tener instalado yarn)[https://yarnpkg.com/en/docs/install] en el equipo para instalar el proyecto.  
 En el terminal, ejecutar este comando:
 
 ```bash

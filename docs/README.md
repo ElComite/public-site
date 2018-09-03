@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: http://elcomite.bio/assets/img/logo.png
+heroImage: /img/logo.png
 heroText: Asociación y comunidad en torno a la tecnología y otras artes.
 tagline: ' '
 actionText: Más información →

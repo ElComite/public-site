@@ -10,6 +10,12 @@ Tras instalar yarn, en el directorio del proyecto, ejecutar este comando:
 yarn install
 ```
 
+## Crear contenido
+
+El contenido del sitio se guarda en archivos markdown dentro del directorio docs.  
+
+Si añadimos un archivo llamado prueba.md, podremos verlo publicado como /prueba.html.  
+
 ## Levantar entorno de pruebas/desarrollo
 
 Mediante el siguiente comando, tendremos levantado el sitio web en http://localhost:8080  

@@ -1,0 +1,12 @@
+base: /
+dest: www
+themeConfig:
+  nav:
+    - text: Inicio
+      link: /
+    - text: La asociación
+      link: /info.html
+    - text: Agenda/Meetups
+      link: https://www.meetup.com/es-ES/elcomite/
+    - text: Qué hemos hecho
+      link: https://medium.com/elcomite

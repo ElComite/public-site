@@ -10,3 +10,23 @@ themeConfig:
       link: https://www.meetup.com/es-ES/elcomite/
     - text: Qué hemos hecho
       link: https://medium.com/elcomite
+  malaga18:
+    speakers:
+      "carlos-fernandez":
+        name: Carlos Fernandez
+        links: 
+          twitter: sirikon
+      "andoni-arroyo":
+        name: Andoni Arroyo
+        links: 
+          twitter: andoniarroyo
+      "diego-rodriguez":
+        name: Diego Rodriguez
+        links: 
+          twitter: arketipo
+      "asier-marqués":
+        name: Asier Marqués
+        links: 
+          twitter: asiermarques
+          
+

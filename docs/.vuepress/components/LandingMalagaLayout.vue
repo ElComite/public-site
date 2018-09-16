@@ -23,8 +23,9 @@
         <h2>Agenda</h2>
 
         <AgendaItem v-for="speaker in config.speakers" 
+                    :key="speaker.name"
                     :speaker="speaker"></AgendaItem>
-                    
+
     </section>
 
     <footer>
@@ -57,5 +58,21 @@ export default {
   
 }
 </script>
+
+<style lang="stylus">
+@import './styles/config.styl'
+.home
+  section, footer
+    margin-top 24px
+    margin-bottom 54px
+  #description 
+    text-align center
+  #agenda 
+    h2 
+      text-align center
+      border none
+
+    
+</style>
 
 

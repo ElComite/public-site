@@ -7,7 +7,7 @@
 
         <div class="talk" v-if="item.type=='talk'">
             <h4 class="title">{{item.talk.title}}</h4>
-            <p class="talk">{{item.talk.description}}</p>
+            <p class="talk" v-html="nl(item.talk.description)"></p>
         </div>
 
         <div class="talk" v-if="item.type=='slot'">
@@ -39,6 +39,16 @@ export default {
     props: ["item"],
     data () {
         return {
+        }
+    },
+    methods: {
+        nl(str) {
+            if (typeof str === 'undefined' || str === null) {
+                return '';
+            }
+            var breakTag = '<br>';
+            return (str + '').replace(/([^>\r\n]?)(\r\n|\n\r|\r|\n)/g, '$1' + breakTag + '$2');
+
         }
     }
 }

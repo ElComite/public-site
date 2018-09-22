@@ -30,7 +30,7 @@ agenda:
             twitter: https://twitter.com/sirikon
         talk:
             title: Go Go, Power Rangers
-            description: Hablaremos de Golang, empezando con una introducción al lenguaje, sus pros y sus contras. | Continuaremos con casos de uso y éxito. Seguiremos con control de errores. Y para terminar, un vistazo al futuro con Go Modules y lo que podría venir con Go 2.
+            description: "Hablaremos de Golang, empezando con una introducción al lenguaje, sus pros y sus contras. \n Continuaremos con casos de uso y éxito. Seguiremos con control de errores. Y para terminar, un vistazo al futuro con Go Modules y lo que podría venir con Go 2."
 
     "pausa-cafe":
         time: 11:00 AM
@@ -59,7 +59,7 @@ agenda:
             twitter: https://twitter.com/asiermarques
         talk:
             title: Documentación activa
-            description:  "La creación de productos de software conlleva desafíos a nivel de comunicación entre los diferentes roles que participan en el proyecto. \n\n
+            description:  "La creación de productos de software conlleva desafíos a nivel de comunicación entre los diferentes roles que participan en el proyecto. \n
             En esta charla veremos las diferentes tipologías de documentación activa que podemos aplicar en nuestros procesos de Integración Continua para que sirvan como referencia única entre los diferentes roles de nuestros equipos y cómo escribir buenas especificaciones con Gherkin que sirvan para crear pruebas que aseguren de forma automática la calidad del software que las implementa, sin perder el contexto del valor de negocio que estamos entregando al usuario."
 ---
 

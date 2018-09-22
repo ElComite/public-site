@@ -1,35 +1,48 @@
 <template>
-  <div
-    class="home"
-  >
-  
 
+
+
+
+  <div>
+  
     <section id="header">
 
           <Hero :title="config.title" 
               :description="config.claim"
               :ctaText="config.ctaText"
+              :bgImage="config.bgimage"
               :date="config.date"></Hero>
 
     </section>
 
 
-    <section id="description">
-      <Content custom/>
-    </section>
+
+    <div class="container">
+          <section id="description">
+            <Content custom/>
+          </section>
 
 
-    <section id="agenda">
-        <h2>Agenda</h2>
+          <section id="agenda">
+              <h2 class="section-title">Agenda</h2>
 
-        <AgendaItem v-for="speaker in config.speakers" 
-                    :key="speaker.name"
-                    :speaker="speaker"></AgendaItem>
+              <AgendaItem v-for="agendaItem in config.agenda" 
+                          :key="agendaItem.name"
+                          :item="agendaItem"></AgendaItem>
 
-    </section>
+          </section>
+
+
+          <section id="place">
+            <h2 class="section-title">Localización</h2>
+            <p>Pronto más información</p>
+          </section>
+    </div>
 
     <footer>
-      elComité 2018
+        <div class="container">
+          elComité 2018
+        </div>
     </footer>
 
 
@@ -60,17 +73,18 @@ export default {
 </script>
 
 <style lang="stylus">
-@import './styles/config.styl'
-.home
-  section, footer
-    margin-top 24px
-    margin-bottom 54px
+
+@require './styles/elements'
+
+
   #description 
     text-align center
-  #agenda 
-    h2 
-      text-align center
-      border none
+    font-size 1.6rem
+    line-height 1.8rem
+    margin-top 3rem
+    margin-bottom 6rem
+    color #666
+
 
     
 </style>

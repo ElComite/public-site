@@ -1,48 +1,62 @@
 ---
 layout: LandingMalagaLayout
-claim: Una mañana para compartir sobre diseño y tecnología
+claim: Una jornada para compartir sobre diseño y tecnología
 title:     '#Malagamité'
 date:  Sábado 10 de Noviembre, Málaga
-bgimage:   https://farm5.staticflickr.com/4650/26749941448_05be0a83d7_k_d.jpg
-imagelink: https://www.flickr.com/photos/schwanhals/26749941448/in/photolist-GKNrD3-34uitX-5Gc7Ep-JzVw1k-NqcweZ
+bgimage:   https://farm6.staticflickr.com/5729/21198486050_7962f21294_k_d.jpg
+imagelink: https://www.flickr.com/photos/juhe59/21198486050/
 ctaText:   Pronto más información
-speakers:
+agenda:
 
     "diego-rodriguez":
+        time: 9:00 AM
+        type: talk
         name: Diego Rodriguez
         bio: todo
         avatar: /malaga/img/diego.jpeg
         links: 
-            twitter: https//twitter.com/arketipo
+            twitter: https://twitter.com/arketipo
         talk:
-            title: todo
-            description: todo
+            title: 500 años de experiencia
+            description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in porttitor urna. Aliquam maximus auctor pellentesque. Nam eget ligula erat. Praesent sollicitudin sapien lectus, nec laoreet tortor tempor vitae. Suspendisse ullamcorper felis ultrices urna fringilla convallis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In hac habitasse platea dictumst. Ut in massa in nulla volutpat rutrum quis nec leo. Phasellus blandit ante turpis, eu vulputate elit consequat et. Nam et semper nisi. Ut tristique quam eu felis venenatis aliquet. Etiam eu venenatis augue. Proin sit amet vehicula turpis, nec aliquam augue. Mauris sit amet mi dapibus, rutrum diam nec, feugiat diam. Ut non odio augue. Nullam ipsum elit, maximus non arcu nec, ultricies vulputate justo.
     
     "carlos-fernandez":
+        time: 10:00 AM
+        type: talk
         name: Carlos Fernandez
         bio: todo
         avatar: /malaga/img/carlos.jpeg
         links: 
-            twitter: https//twitter.com/sirikon
+            twitter: https://twitter.com/sirikon
         talk:
             title: Go Go, Power Rangers
             description: Hablaremos de Golang, empezando con una introducción al lenguaje, sus pros y sus contras. | Continuaremos con casos de uso y éxito. Seguiremos con control de errores. Y para terminar, un vistazo al futuro con Go Modules y lo que podría venir con Go 2.
 
+    "pausa-cafe":
+        time: 11:00 AM
+        type: slot
+        name: Pausa para networking/café
+
     "andoni-arroyo":
+        time: 11:30 AM
+        type: talk
         name: Andoni Arroyo
         bio: todo
         avatar: /malaga/img/andoni.jpeg
         links: 
-            twitter: https//twitter.com/andoniarroyo
+            twitter: https://twitter.com/andoniarroyo
         talk:
-            title: todo
-            description: todo
+            title: SCRUM
+            description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in porttitor urna. Aliquam maximus auctor pellentesque. Nam eget ligula erat. Praesent sollicitudin sapien lectus, nec laoreet tortor tempor vitae. Suspendisse ullamcorper felis ultrices urna fringilla convallis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In hac habitasse platea dictumst. Ut in massa in nulla volutpat rutrum quis nec leo. Phasellus blandit ante turpis, eu vulputate elit consequat et. Nam et semper nisi. Ut tristique quam eu felis venenatis aliquet. Etiam eu venenatis augue. Proin sit amet vehicula turpis, nec aliquam augue. Mauris sit amet mi dapibus, rutrum diam nec, feugiat diam. Ut non odio augue. Nullam ipsum elit, maximus non arcu nec, ultricies vulputate justo.
+
     "asier-marqués":
+        time: 12:30 AM
+        type: talk
         name: Asier Marqués
         bio: todo
         avatar: /malaga/img/asier.jpeg
         links: 
-            twitter: https//twitter.com/asiermarques
+            twitter: https://twitter.com/asiermarques
         talk:
             title: Documentación activa
             description:  "La creación de productos de software conlleva desafíos a nivel de comunicación entre los diferentes roles que participan en el proyecto. \n\n

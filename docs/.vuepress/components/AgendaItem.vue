@@ -22,7 +22,7 @@
                     
                     <div class="desc">
                         <h4>{{item.name}} <a :href="item.links.twitter"><img src="/img/twitter.svg" alt=""></a></h4>
-                        <p></p>
+                        <p>{{item.bio}}</p>
                     </div>
                 </div>
         </footer>

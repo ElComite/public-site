@@ -89,7 +89,7 @@ agenda:
         links: 
             twitter: https://twitter.com/vthot04
         talk:
-            title: Kaos Engineering
+            title: Chaos. Resiliencia en sistemas impredecibles.
             description:  "Durante esta pequeña charla trataremos de abordar la impredecibilidad de los sistemas desde el punto de vista de la resiliencia. 
               
 

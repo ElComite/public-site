@@ -100,7 +100,7 @@ agenda:
         type: talk
         name: Roberto Fernández
         bio: Software Architect in Versia
-        avatar: /malaga/img/rober.jpg
+        avatar: /malaga/img/rober.png
         links: 
             twitter: https://twitter.com/rfperez_78
         talk:

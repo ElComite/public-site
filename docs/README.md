@@ -1,5 +1,6 @@
 ---
 home: true
+show_sitename: 0
 heroImage: /img/logo.png
 heroText: Asociación y comunidad en torno a la tecnología y otras artes.
 tagline: ' '

@@ -90,7 +90,10 @@ agenda:
             twitter: https://twitter.com/vthot04
         talk:
             title: Kaos Engineering
-            description:  ""
+            description:  "Durante esta pequeña charla trataremos de abordar la impredecibilidad de los sistemas desde el punto de vista de la resiliencia. 
+              
+
+            Veremos como la introducción de caos en nuestros sistemas nos puede ayudar a mejorarlos e incluso a cambiar nuestra forma de diseñarlos."
             
     "roberto-fernandez":
         time: 17:00 PM

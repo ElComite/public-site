@@ -8,16 +8,16 @@
     >
       <img
         class="logo"
-        v-if="$site.themeConfig.logo"
+        v-if="0"
         :src="$withBase($site.themeConfig.logo)"
         :alt="$siteTitle"
       >
       <span
         ref="siteName"
         class="site-name"
-        v-if="$siteTitle"
-        :class="{ 'can-hide': $site.themeConfig.logo }"
-      >{{ $siteTitle }}</span>
+        v-if="shouldShowSitename"
+        :class="{ 'can-hide': $site.themeConfig.name }"
+      >{{ $site.themeConfig.name }}</span>
     </router-link>
 
     <div
@@ -70,7 +70,14 @@ export default {
     algolia () {
       return this.$themeLocaleConfig.algolia || this.$site.themeConfig.algolia || {}
     },
-
+    shouldShowSitename () {  
+      const { frontmatter } = this.$page
+      if (
+        frontmatter.show_sitename === 0 ) {
+        return false
+      }
+      return true
+    },
     isAlgoliaSearch () {
       return this.algolia && this.algolia.apiKey && this.algolia.indexName
     }

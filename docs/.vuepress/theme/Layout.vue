@@ -93,7 +93,7 @@ export default {
         this.$themeLocaleConfig.nav
       )
     },
-
+    
     shouldShowSidebar () {
       const { frontmatter } = this.$page
       return (

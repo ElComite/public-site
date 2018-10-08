@@ -1,5 +1,16 @@
 <template>
+
+
+
   <div class="home">
+
+    <a href="/malaga.html" class="banner">
+      <div>
+        <h2><small>Próximo evento</small>10 de Noviembre en Málaga</h2>
+        <span>#malagamité</span>
+      </div>
+    </a>
+
     <div class="hero">
       <img
         v-if="data.heroImage"
@@ -71,12 +82,40 @@ export default {
 
 <style lang="stylus">
 @import './styles/config.styl'
-
+.banner 
+  background #d1ebff
+  color lighten($textColor, 10%)
+  display block
+  margin 0 -2rem
+  padding 20px
+  position absolute
+  left 0
+  right 0
+  div  
+    position relative
+    max-width 960px
+    margin 0 auto
+  span 
+    margin 0
+    font-size 26px
+    font-weight 200
+    float right 
+  h2 
+    border none
+    margin 0
+    font-weight 500
+    width auto
+    display inline-block
+    small 
+      font-size 14px
+      font-weight 200
+      display block
 .home
   padding $navbarHeight 2rem 0
   max-width 960px
   margin 0px auto
   .hero
+    padding-top 90px
     text-align center
     img
       max-height 280px
@@ -129,7 +168,12 @@ export default {
     border-top 1px solid $borderColor
     text-align center
     color lighten($textColor, 25%)
-
+@media (max-width: 1052px)
+  .banner 
+    position relative
+  .home
+    .hero
+      padding-top 0
 @media (max-width: $MQMobile)
   .home
     .features
@@ -139,6 +183,12 @@ export default {
       padding 0 2.5rem
 
 @media (max-width: $MQMobileNarrow)
+  .banner 
+    span 
+      float none 
+      text-align right 
+      display block
+      margin-top 8px
   .home
     padding-left 1.5rem
     padding-right 1.5rem

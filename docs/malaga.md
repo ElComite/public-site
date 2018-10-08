@@ -12,7 +12,7 @@ agenda:
         time: 9:00 AM
         type: talk
         name: Diego Rodriguez
-        bio:  Design Lead in NITSNETS / Trainer in Linkedin
+        bio:  Pixel developer / Trainer in Linkedin
         avatar: /malaga/img/diego.jpeg
         links: 
             twitter: https://twitter.com/arketipo

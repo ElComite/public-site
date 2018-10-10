@@ -2,6 +2,7 @@
 layout: LandingMalagaLayout
 claim: Una jornada para compartir sobre diseño y tecnología
 title:     '#Malagamité'
+description: 10 de Noviembre en Málaga, evento profesional en torno al diseño y desarrollo de software.
 date:  Sábado 10 de Noviembre, Málaga
 bgimage:   https://farm6.staticflickr.com/5729/21198486050_7962f21294_k_d.jpg
 imagelink: https://www.flickr.com/photos/juhe59/21198486050/

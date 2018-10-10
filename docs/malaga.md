@@ -5,7 +5,8 @@ title:     '#Malagamité'
 date:  Sábado 10 de Noviembre, Málaga
 bgimage:   https://farm6.staticflickr.com/5729/21198486050_7962f21294_k_d.jpg
 imagelink: https://www.flickr.com/photos/juhe59/21198486050/
-ctaText:   Entradas aún no disponibles
+ctaText:   Consigue tu entrada
+ctaLink:   https://www.eventbrite.es/e/entradas-malagamite-51216802836
 agenda:
 
     "diego-rodriguez":

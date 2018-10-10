@@ -6,7 +6,7 @@
             <h2>{{description}}</h2>
 
             <h4>{{date}}</h4>
-            <button class="action-button">{{ctaText}}</button>
+            <a :href="ctaLink" target="_blank" class="action-button">{{ctaText}}</a>
         </div>
 
     </div>
@@ -18,7 +18,7 @@ import NavLink from '../theme/NavLink'
 
 export default {
     components: {NavLink},
-    props: ["title", "image", "date", "actionLink", "ctaText", "description", "bgImage"],
+    props: ["title", "image", "date", "actionLink", "ctaText","ctaLink", "description", "bgImage"],
     data () {
         return {
         }

@@ -10,6 +10,7 @@
           <Hero :title="config.title" 
               :description="config.claim"
               :ctaText="config.ctaText"
+              :ctaLink="config.ctaLink"
               :bgImage="config.bgimage"
               :date="config.date"></Hero>
 

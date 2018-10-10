@@ -53,7 +53,7 @@
 
     <footer>
         <div class="container">
-            <div class="left">elComite 2018</div>
+            <div class="left">elComite 2018 <p><a :href="config.imagelink">Imagen de portada</a></p></div>
             <div class="right">
                 <h4>Evento apoyado por</h4>
                 <a href="https://www.kamstrup.com/es-es"><img src="/malaga/img/kamstrup.svg" alt="kamstrup"></a>

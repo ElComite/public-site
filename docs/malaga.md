@@ -114,7 +114,7 @@ agenda:
         time: 18:00 PM
         type: talk
         name: Gabriel Aberasturi
-        bio: IBM Cloud Champion & Systems Architect in Versia
+        bio: IBM Cloud Champion & Middleware Engineer in Versia
         avatar: /malaga/img/gabi.png
         links: 
             twitter: https://twitter.com/GAberasturi

@@ -108,9 +108,24 @@ agenda:
         talk:
             title: "Swagger: Cómo documentar un API REST"
             description:  "Una introducción sobre cómo documentar un API REST mediante un caso práctico: definición de los endpoints a exponer, modelo de negocio utilizado en el API y test de la parte cliente y la parte servidora en varios lenguajes"
+
+
+    "gabriel-aberasturi":
+        time: 18:00 PM
+        type: talk
+        name: Gabriel Aberasturi
+        bio: IBM Cloud Champion & Systems Architect in Versia
+        avatar: /malaga/img/gabi.png
+        links: 
+            twitter: https://twitter.com/GAberasturi
+        talk:
+            title: "Docker, algo mas que una marca de pantalones"
+            description:  "Cómo los contenedores han revolucionado la forma en la que se conciben los sistemas.  
+  
+En la charla explicaremos como esta  tecnología ha sido adoptada e implantada en un proyecto real y las visicitudes que ha conllevado así como alegrías y sorpresas!"
               
     "networking":
-        time: 18:00 PM
+        time: 19:00 PM
         type: slot
         name: Despedida y networking 
 

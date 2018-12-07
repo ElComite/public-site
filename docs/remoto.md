@@ -22,7 +22,7 @@ Tengo [un audio de diez minutos](https://anchor.fm/arketipo/episodes/En-qu-ando-
             title: Triunfar sin emigrar
             description: "Contaré mi visión personal sobre el mundo del trabajo digital, un tema con el que estoy obsesionado desde hace diez años.   
               
-            Y también mi experiencia personal sobre como buscarse la vida en el entorno tecnológico, crear conexiones y aprovechar las oportunidades. Un punto de vista alejado delos edulcorantes pero lleno de optimismo y energía."
+            Y también mi experiencia personal sobre como buscarse la vida en el entorno tecnológico, crear conexiones y aprovechar las oportunidades. Un punto de vista alejado de los edulcorantes pero lleno de optimismo y energía."
             
     "zigor":
         time: 10:45 AM

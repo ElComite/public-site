@@ -69,8 +69,8 @@ Tengo [un audio de diez minutos](https://anchor.fm/arketipo/episodes/En-qu-ando-
         time: 12:45 AM
         type: talk
         name: Alex Lareo
-        bio: "Alex Lareo es un diseñador que ... también programa. Hace ya 7 años dejo su empresa de postproduction y efectos para empezar a diseñar y desarrollar interfaces, aplicaciones y web en ámbitos muy variados: desde Interfaces para Smart TV, sistemas de infotainment para coches, pasando por el diseño de apps medicas  hasta rediseño del front-end de sistemas SCADA para granjas de aerogeneradores. 
-
+        bio: "Alex Lareo es un diseñador que ... también programa. Hace ya 7 años dejo su empresa de postproduction y efectos para empezar a diseñar y desarrollar interfaces, aplicaciones y web en ámbitos muy variados: desde Interfaces para Smart TV, sistemas de infotainment para coches, pasando por el diseño de apps medicas  hasta rediseño del front-end de sistemas SCADA para granjas de aerogeneradores.  
+          
 Ha trabajado de forma habitual en dos zonas horarias distintas  (USA / España) con picos puntuales de tres (China/USA/España)."
         avatar: /remoto/img/alex.jpeg
         links: 

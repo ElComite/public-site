@@ -73,10 +73,10 @@
 import Vue from 'vue'
 import nprogress from 'nprogress'
 import Hero from './Hero'
-import AgendaItem from './AgendaItem'
+import SpeakerItem from './SpeakerItem'
 
 export default {
-  components: { Hero, AgendaItem },
+  components: { Hero, SpeakerItem },
 
   data() {
     return {

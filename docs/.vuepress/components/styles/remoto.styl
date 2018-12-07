@@ -186,16 +186,45 @@ h1, h2, h3, h4
     display: flex;
     margin-bottom: 0px
     div.avatar
+
+      flex-shrink: 0
       img  
-        max-width: 200px
+        width: 200px
         height auto
         margin-right: 10px 
-        flex-grow: 1
         margin-top: 10px
     div.talk  
       margin-left: 10px
-      flex-grow: 3
+      flex-grow: 1 auto
 
 
 #place 
     margin-top: 180px
+
+
+@media (max-width: $MQMobile)
+    .speaker_container
+        display: block;
+        margin-bottom: 0px
+        div.avatar
+            img  
+                width: 100%
+                height auto
+                margin: 0
+                margin-bottom: 10px
+        div.talk  
+            flex-grow: 1
+
+
+@media (max-width: $MQMobileNarrow)
+    .speaker_container
+        display: block;
+        margin-bottom: 0px
+        div.avatar
+            img  
+                width: 100%
+                height auto
+                margin: 0
+                margin-bottom: 10px
+        div.talk  
+            flex-grow: 1

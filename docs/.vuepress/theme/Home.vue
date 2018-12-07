@@ -1,39 +1,41 @@
 <template>
+<div>
+    <header class="home">
+      <div class="container">
+        <div class="hero">
+        <img
+          v-if="data.heroImage"
+          :src="$withBase(data.heroImage)"
+          alt="hero"
+        >
 
+        <h1>{{ data.heroText || $title || 'Hello' }}</h1>
 
+        <p class="description">
+          {{ data.tagline || $description || 'Welcome to your VuePress site' }}
+        </p>
 
-  <div class="home">
-
-    <a href="/malaga.html" class="banner">
-      <div>
-        <h2><small>Próximo evento</small>10 de Noviembre en Málaga</h2>
-        <span>#malagamité</span>
+        <p
+          class="action"
+          v-if="data.actionText && data.actionLink"
+        >
+          <NavLink
+            class="action-button"
+            :item="actionLink"
+          />
+        </p>
       </div>
-    </a>
+    </div>  
 
-    <div class="hero">
-      <img
-        v-if="data.heroImage"
-        :src="$withBase(data.heroImage)"
-        alt="hero"
-      >
 
-      <h1>{{ data.heroText || $title || 'Hello' }}</h1>
 
-      <p class="description">
-        {{ data.tagline || $description || 'Welcome to your VuePress site' }}
-      </p>
+    </header>
 
-      <p
-        class="action"
-        v-if="data.actionText && data.actionLink"
-      >
-        <NavLink
-          class="action-button"
-          :item="actionLink"
-        />
-      </p>
-    </div>
+    <section class="container">
+
+
+
+
 
     <div
       class="features"
@@ -48,7 +50,9 @@
       </div>
     </div>
 
-    <Content custom/>
+
+    
+
 
     <div
       class="footer"
@@ -56,7 +60,11 @@
     >
       {{ data.footer }}
     </div>
-  </div>
+  </section>
+</div>
+  
+
+
 </template>
 
 <script>
@@ -82,6 +90,40 @@ export default {
 
 <style lang="stylus">
 @import './styles/config.styl'
+
+header.home
+  background-color $accentColor
+  padding-bottom 46px
+  .hero
+    padding-top 30px
+    text-align center
+    img
+      max-height 280px
+      display block
+      margin 3rem auto 3.2rem
+    h1
+      font-size 3rem
+      color #A8CAF0
+    h1, .description, .action
+      margin 1.8rem auto
+    .description
+      max-width 35rem
+      font-size 1.6rem
+      line-height 1.3
+      color lighten($textColor, 40%)
+    .action-button
+      display inline-block
+      font-size 1.2rem
+      color $accentColor
+      background-color #FFF
+      padding 0.8rem 1.6rem
+      border-radius 4px
+      transition background-color .1s ease
+      box-sizing border-box
+      border-bottom 1px solid lighten($accentColor, 10%)
+      &:hover
+        background-color lighten(#fff, 10%)
+
 .banner 
   background #d1ebff
   color lighten($textColor, 10%)
@@ -110,42 +152,15 @@ export default {
       font-size 14px
       font-weight 200
       display block
-.home
+
+
+
+.container
   padding $navbarHeight 2rem 0
   max-width 960px
   margin 0px auto
-  .hero
-    padding-top 90px
-    text-align center
-    img
-      max-height 280px
-      display block
-      margin 3rem auto 1.5rem
-    h1
-      font-size 3rem
-    h1, .description, .action
-      margin 1.8rem auto
-    .description
-      max-width 35rem
-      font-size 1.6rem
-      line-height 1.3
-      color lighten($textColor, 40%)
-    .action-button
-      display inline-block
-      font-size 1.2rem
-      color #fff
-      background-color $accentColor
-      padding 0.8rem 1.6rem
-      border-radius 4px
-      transition background-color .1s ease
-      box-sizing border-box
-      border-bottom 1px solid darken($accentColor, 10%)
-      &:hover
-        background-color lighten($accentColor, 10%)
   .features
-    border-top 1px solid $borderColor
-    padding 1.2rem 0
-    margin-top 2.5rem
+    padding .8rem 0 1.2rem 0
     display flex
     flex-wrap wrap
     align-items flex-start
@@ -175,7 +190,7 @@ export default {
     .hero
       padding-top 0
 @media (max-width: $MQMobile)
-  .home
+  .container
     .features
       flex-direction column
     .feature
@@ -189,7 +204,7 @@ export default {
       text-align right 
       display block
       margin-top 8px
-  .home
+  .container
     padding-left 1.5rem
     padding-right 1.5rem
     .hero

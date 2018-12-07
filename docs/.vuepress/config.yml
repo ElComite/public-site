@@ -3,6 +3,11 @@ dest: www
 
 title: elComité - Asociación y comunidad en torno a la tecnología y otras artes.
 description: "El comité es una asociación y una comunidad diversa de profesionales, estudiantes y personas apasionadas por el mundo del desarrollo de productos tanto digitales o como físicos o tradicionales, pero que estén interesados y sean proactivos en el mundo tecnológico."
+head: 
+    - ["meta", {name: "og:title", content: "360conexion: 22 de Diciembre en Bilbao, trabajo en remoto"}]
+    - ["meta", {name: "og:image", content: "https://elcomite.net/img/cabecera_remoto.png"}]
+    - ['link', { rel: 'icon', href: '/img/logo.png' }]
+
 themeConfig:
   logo: /img/logo.png
   name: elComité

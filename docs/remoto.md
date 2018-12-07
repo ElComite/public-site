@@ -3,6 +3,8 @@ layout: Landing360RemotoLayout
 claim:  Una jornada para compartir sobre diseño y tecnología
 title:     '#360remoto'
 description: 22 de Diciembre en Bilbao, 360conexion para hablar de trabajo en remoto
+
+
 date:  Sábado 22 de Diciembre, Bilbao
 bgimage:   /img/cabecera_remoto.png
 imagelink: /

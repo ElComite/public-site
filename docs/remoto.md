@@ -43,7 +43,7 @@ Tengo [un audio de diez minutos](https://anchor.fm/arketipo/episodes/En-qu-ando-
     "pausa-cafe":
         time: 11:30 AM
         type: slot
-        name: Pausa para networking/café
+        name: Pausa para el café
 
     "nuria":
         time: 12:00 AM

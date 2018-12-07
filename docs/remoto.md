@@ -14,7 +14,7 @@ agenda:
         name: Diego Rodriguez
         bio:  "Formador en LinkedIn Learning y trabajando en remoto en Nitsnets.    
 
-Tengo un audio de diez minutos solo para contar lo que hago https://anchor.fm/arketipo/episodes/En-qu-ando-metido-2018-e2kmbf"
+Tengo [un audio de diez minutos](https://anchor.fm/arketipo/episodes/En-qu-ando-metido-2018-e2kmbf) solo para contar lo que hago."
         avatar: /remoto/img/diego.jpg
         links: 
             twitter: https://twitter.com/arketipo
@@ -49,10 +49,12 @@ Tengo un audio de diez minutos solo para contar lo que hago https://anchor.fm/ar
         time: 12:00 AM
         type: talk
         name: Nuria Rita Sebastián
-        bio: "Periodista, arquitecta de la información y editora especializada en gestión de proyectos digitales. 
-              
+        bio: "Periodista, arquitecta de la información y editora especializada en gestión de proyectos digitales.  
+
+          
             Mi primer trabajo, hace 18 años, fue en remoto como parte del equipo fundador de Consumer.es y desde entonces no concibo trabajar de otra manera. 
-            
+
+              
             Gracias a eso ahora combino la consultoría tecnológica con mi nueva aventura: Casa Tía Julia - Refugio de Ideas, un centro de talleres y punto de encuentro en Ciria (Soria) un pueblo de 20 habitantes."
         avatar: /remoto/img/selfie-nuria-castillo.jpg
         links: 
@@ -77,12 +79,16 @@ Tengo un audio de diez minutos solo para contar lo que hago https://anchor.fm/ar
         time: 13:30 AM
         type: talk
         name: Mario Nunes
-        bio: "Software developer"
+        bio: "Mario trabaja como desarrollador de software en aspgems en remoto y cuenta con más de quince años de experiencia en el desarrollo de software, siete de ellos trabajando en remoto.  
+
+  
+Apasionado de la tecnología y entusiasta de las metodologías ágiles. 
+Me encanta aprender, no sólo de tecnología y negocio. Mi hijo me está enseñando a ser padre y a veces me pierdo cuando salgo por el monte."
         avatar: /remoto/img/mario.jpg
         links: 
             twitter: https://twitter.com/mariotux
         talk:
-            title: ""
+            title: "La oficina en tu mochila"
             description: ""
               
     "networking":

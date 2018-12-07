@@ -10,9 +10,9 @@
                 <img :src="item.avatar" :alt="item.name">
             </div>
             <div class="talk" >
-                <p v-html="nl(item.bio)"></p>
+                <div v-html="$options.filters.marked(item.bio)"></div>
                 <h5 v-if="item.talk.title">Su charla: {{item.talk.title}}</h5>
-                <p>{{item.talk.description}}</p>
+                <div v-html="$options.filters.marked(item.talk.description)"></div>
             </div>
         </section>
 

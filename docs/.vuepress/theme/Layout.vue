@@ -65,10 +65,15 @@ import Page from './Page.vue'
 import Sidebar from './Sidebar.vue'
 import SWUpdatePopup from './SWUpdatePopup.vue'
 import { resolveSidebarItems } from './util'
+import marked from 'marked'
+
+Vue.filter('marked', function(input){
+  console.log(marked(input));
+  return marked(input)
+})
 
 export default {
-  components: { Home, Page, Sidebar, Navbar, SWUpdatePopup },
-
+  components: { Home, Page, Sidebar, Navbar, SWUpdatePopup},
   data () {
     return {
       isSidebarOpen: false,

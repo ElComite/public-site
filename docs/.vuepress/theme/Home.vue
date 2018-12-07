@@ -120,7 +120,7 @@ header.home
       border-radius 4px
       transition background-color .1s ease
       box-sizing border-box
-      border-bottom 1px solid lighten($accentColor, 10%)
+      border-bottom 1px solid $textColor
       &:hover
         background-color lighten(#fff, 10%)
 

@@ -27,6 +27,7 @@
           <section id="description">
             <h4 class="hashtag">#360remoto</h4>
             <Content custom/>
+            <a href="" class="cta button">Entradas aún no disponibles</a>
           </section>
 
 

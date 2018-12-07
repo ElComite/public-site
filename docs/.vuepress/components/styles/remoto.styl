@@ -1,243 +1,242 @@
 @require './../../theme/styles/config'
-.hashtag
-  font-weight: 200
-  font-size: 35px
-header#top
-  background-color $accentColor
-  display: block
-  background: $accentColor;
-  color #fff
-  padding-top: 20px
-  .container
-      background: $accentColor url('/img/cabecera_remoto.png') no-repeat bottom left;
-      min-height: 380px
-      padding-bottom 46px
-      background-size: 90%
-      max-width 1024px
-      position: relative
-      a.logo 
-          width: 140px
-          height 140px
-          background url('/img/logo.png') no-repeat 50% 50%
-          display: inline-block
-          background-size: 95%
-      .title
-          position: absolute
-          right 0
-          bottom 0
-          text-align: right 
-          padding-bottom: 20px
-          h2, h1 
-            margin 0
-            padding 0
-          h2 
-            strong 
-              text-transform: uppercase
-              font-weight: 700
-              font-size: 35px
-          h1 
-            color #D3E4F8
-            font-size: 45px
 
+#landing_remoto
+    .hashtag
+        font-weight: 200
+        font-size: 35px
+    header#top
+        background-color $accentColor
+        display: block
+        background: $accentColor;
+        color #fff
+        padding-top: 20px
+        .container
+            background: $accentColor url('/img/cabecera_remoto.png') no-repeat bottom left;
+            min-height: 380px
+            padding-bottom 46px
+            background-size: 90%
+            max-width 1024px
+            position: relative
+            a.logo 
+                width: 140px
+                height 140px
+                background url('/img/logo.png') no-repeat 50% 50%
+                display: inline-block
+                background-size: 95%
+            .title
+                position: absolute
+                right 0
+                bottom 0
+                text-align: right 
+                padding-bottom: 20px
+                h2, h1 
+                    margin 0
+                    padding 0
+                h2 
+                    strong 
+                    text-transform: uppercase
+                    font-weight: 700
+                    font-size: 35px
+                h1 
+                    color #D3E4F8
+                    font-size: 45px
 
-footer 
-    background: #D3E4F8
-    color: $textColor
-    padding-bottom: 50px
-    padding-top: 30px
-    margin-top: 12rem
-    .container
-        display flex
-        flex-wrap wrap
-        align-items flex-start
-        align-content stretch
-        .left
-            flex-grow 1
-            flex-basis 30%
-            max-width 30%
-        .right
-            flex-grow 2
-            flex-basis 70%
-            max-width 70%
-            text-align right
-            img
-              max-width 200px
-              height: auto
-            h4
-              margin 0
-h1, h2, h3, h4 
-  border: none
-
-.section-title
-  font-size: 2rem
-  font-weight: lighter
-  margin-bottom: 2.4rem
-  text-align: center
-
-.container
-    padding: 1rem;
-    margin: 0px auto;
-    max-width 1024px
-.action-button
-    display inline-block
-    font-size 1.2rem
-    color #fff
-    background-color $accentColor
-    padding 0.8rem 1.6rem
-    border-radius 0px
-    transition background-color .1s ease
-    box-sizing border-box
-    border-bottom 1px solid darken($accentColor, 10%)
-    &:hover
-        background-color lighten($accentColor, 10%)
-
-#hero
-    background-color $accentColor
-    color: #fff 
-    text-align: center
-    padding: 4rem 0 14rem 0
-    background-image: cover 
-    background-position: 50% 15%
-    background-repeat: no-repeat
-    h1, h2, h3, h4 
-        margin: 0
-        margin-bottom: 1rem
-    h1 
-        font-size: 3rem
-        font-weight: lighter
-    h2 
-        text-transform: uppercase 
-        font-size: 2.5rem
-    h4 
-        font-size: 1.5rem
-        font-weight: normal
-    .action-button
-        background-color: #fff
-        border: none
-        color: #000
-        &:hover
-            background-color lighten(#fff, 30%)
-
-
-.agenda-item
-    margin-bottom: 80px
 
     footer 
-        background: #fff
-        padding: 0
-        margin: 0
+        background: #D3E4F8
         color: $textColor
+        padding-bottom: 50px
+        padding-top: 30px
+        margin-top: 12rem
+        .container
+            display flex
+            flex-wrap wrap
+            align-items flex-start
+            align-content stretch
+            .left
+                flex-grow 1
+                flex-basis 30%
+                max-width 30%
+            .right
+                flex-grow 2
+                flex-basis 70%
+                max-width 70%
+                text-align right
+                img
+                max-width 200px
+                height: auto
+                h4
+                margin 0
+    h1, h2, h3, h4 
+      border: none
 
-    h5
-        font-weight: normal
-        font-size: 1.5rem
-        line-height: 2.1rem
-        margin-bottom: .5rem
-        margin-top: 0
+    .section-title
+        font-size: 2rem
+        font-weight: lighter
+        margin-bottom: 2.4rem
+        text-align: center
 
-    .time
-        h5 
-            font-size: 1.2rem
+    .container
+        padding: 1rem;
+        margin: 0px auto;
+        max-width 1024px
+    .action-button
+        display inline-block
+        font-size 1.2rem
+        color #fff
+        background-color $accentColor
+        padding 0.8rem 1.6rem
+        border-radius 0px
+        transition background-color .1s ease
+        box-sizing border-box
+        border-bottom 1px solid darken($accentColor, 10%)
+        &:hover
+            background-color lighten($accentColor, 10%)
 
-    .title 
-        line-height: 4rem
-        margin-bottom: 0
-        font-size: 2.6rem
-        margin-top: 0
-        color $accentColor
-
-    .talk
-        font-size: 1.2rem
-        p  
-            margin-top:  0
+    #hero
+        background-color $accentColor
+        color: #fff 
+        text-align: center
+        padding: 4rem 0 14rem 0
+        background-image: cover 
+        background-position: 50% 15%
+        background-repeat: no-repeat
+        h1, h2, h3, h4 
+            margin: 0
+            margin-bottom: 1rem
+        h1 
+            font-size: 3rem
+            font-weight: lighter
+        h2 
+            text-transform: uppercase 
+            font-size: 2.5rem
         h4 
-            line-height: 1.8rem
-            color $accentColor
+            font-size: 1.5rem
+            font-weight: normal
+        .action-button
+            background-color: #fff
+            border: none
+            color: #000
+            &:hover
+                background-color lighten(#fff, 30%)
 
-    .speaker-cont
-        position: relative
-        display: block 
-        margin: 0
+
+    .agenda-item
+        margin-bottom: 80px
+
+        footer 
+            background: #fff
+            padding: 0
+            margin: 0
+            color: $textColor
+
         h5
             font-weight: normal
-            font-size: 0.5rem
-            line-height: .5rem
+            font-size: 1.5rem
+            line-height: 2.1rem
             margin-bottom: .5rem
-        img.avatar 
-            width: 110px
-            height 110px
-            position: absolute
-            display inline-block
-        .desc 
-            min-height: 110px 
-            margin-bottom: 2rem
-            padding-left: 130px
-            h4
-              margin-bottom 10px
-              img
-                width: 14px
-                height 14px
-                display: inline-block
+            margin-top: 0
 
-            p
-              margin-top 0
+        .time
+            h5 
+                font-size: 1.2rem
 
-.speaker_container
-    display: flex;
-    margin-bottom: 0px
-    div.avatar
+        .title 
+            line-height: 4rem
+            margin-bottom: 0
+            font-size: 2.6rem
+            margin-top: 0
+            color $accentColor
 
-      flex-shrink: 0
-      img  
-        width: 200px
-        height auto
-        margin-right: 10px 
-        margin-top: 10px
-    div.talk  
-      margin-left: 10px
-      flex-grow: 1 auto
+        .talk
+            font-size: 1.2rem
+            p  
+                margin-top:  0
+            h4 
+                line-height: 1.8rem
+                color $accentColor
 
+        .speaker-cont
+            position: relative
+            display: block 
+            margin: 0
+            h5
+                font-weight: normal
+                font-size: 0.5rem
+                line-height: .5rem
+                margin-bottom: .5rem
+            img.avatar 
+                width: 110px
+                height 110px
+                position: absolute
+                display inline-block
+            .desc 
+                min-height: 110px 
+                margin-bottom: 2rem
+                padding-left: 130px
+                h4
+                margin-bottom 10px
+                img
+                    width: 14px
+                    height 14px
+                    display: inline-block
 
-#place 
-    margin-top: 180px
+                p
+                margin-top 0
 
+    .speaker_container
+        display: flex;
+        margin-bottom: 0px
+        div.avatar
+            flex-shrink: 0
+        img  
+            width: 200px
+            height auto
+            margin-right: 10px 
+            margin-top: 10px
+        div.talk  
+            margin-left: 10px
+            flex-grow: 1 auto
+    #place 
+        margin-top: 180px
 
 @media (max-width: $MQMobile)
-    .speaker_container
-        display: block;
-        margin-bottom: 0px
-        div.avatar
-            img  
-                width: 100%
-                height auto
-                margin: 0
-                margin-bottom: 10px
-        div.talk  
-            flex-grow: 1
-    header#top
-        .container
-            min-height 300px
-            text-align: center
-            background: $accentColor
-            .title
-                display: block
-                left: 0
-                right 0
+    #landing_remoto  .speaker_container
+            display: block;
+            margin-bottom: 0px
+            div.avatar
+                img  
+                    width: 100%
+                    height auto
+                    margin: 0
+                    margin-bottom: 10px
+            div.talk  
+                flex-grow: 1
+
+    #landing_remoto header#top
+            .container
+                min-height 300px
                 text-align: center
-                h2 strong 
-                  display: block
-                h1 
-                  font-size: 20px
+                background: $accentColor
+                .title
+                    display: block
+                    left: 0
+                    right 0
+                    text-align: center
+                    h2 strong 
+                    display: block
+                    h1 
+                    font-size: 20px
 
 @media (max-width: $MQMobileNarrow)
-    .speaker_container
-        display: block;
-        margin-bottom: 0px
-        div.avatar
-            img  
-                width: 100%
-                height auto
-                margin: 0
-                margin-bottom: 10px
-        div.talk  
-            flex-grow: 1
+    #landing_remoto .speaker_container
+            display: block;
+            margin-bottom: 0px
+            div.avatar
+                img  
+                    width: 100%
+                    height auto
+                    margin: 0
+                    margin-bottom: 10px
+            div.talk  
+                flex-grow: 1

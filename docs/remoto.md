@@ -10,45 +10,8 @@ bgimage:   /img/cabecera_remoto.png
 imagelink: /
 agenda:
 
-    "diego-rodriguez":
-        time: 10:00 AM
-        type: talk
-        name: Diego Rodriguez
-        bio:  "Formador en LinkedIn Learning y trabajando en remoto en Nitsnets.    
-
-Tengo [un audio de diez minutos](https://anchor.fm/arketipo/episodes/En-qu-ando-metido-2018-e2kmbf) solo para contar lo que hago."
-        avatar: /remoto/img/diego.jpg
-        links: 
-            twitter: https://twitter.com/arketipo
-        talk:
-            title: Triunfar sin emigrar
-            description: "Contaré mi visión personal sobre el mundo del trabajo digital, un tema con el que estoy obsesionado desde hace diez años.   
-              
-            Y también mi experiencia personal sobre como buscarse la vida en el entorno tecnológico, crear conexiones y aprovechar las oportunidades. Un punto de vista alejado de los edulcorantes pero lleno de optimismo y energía."
-            
-    "zigor":
-        time: 10:45 AM
-        type: talk
-        name: Zigor Samaniego
-        bio:  "Zigor Samaniego es ilustrador freelance especializado en lettering e imagen publicitaria.  
-          
-
-        Después de trabajar muchos años en el mundo de las infografías arquitectónicas y el diseño gráfico, decide dejarlo todo y dedicarse únicamente a su faceta como ilustrador 3D. 
-        Trabaja tanto para pequeñas startups tecnológicas como para agencias de publicidad tan grandes como Ogilvy Nueva York."
-        avatar: /remoto/img/zigor.jpg
-        links: 
-            twitter: https://twitter.com/zigor
-        talk:
-            title: ¿Te han pagado hijo?
-            description: ""
-
-    "pausa-cafe":
-        time: 11:30 AM
-        type: slot
-        name: Pausa para el café
-
     "nuria":
-        time: 12:00 AM
+        time: 10:00 AM
         type: talk
         name: Nuria Rita Sebastián
         bio: "Periodista, arquitecta de la información y editora especializada en gestión de proyectos digitales.  
@@ -64,6 +27,46 @@ Tengo [un audio de diez minutos](https://anchor.fm/arketipo/episodes/En-qu-ando-
         talk:
             title: Editora en pijama
             description: ""
+
+    "mario":
+        time: 10:45 AM
+        type: talk
+        name: Mario Nunes
+        bio: "Mario trabaja como desarrollador de software en aspgems en remoto y cuenta con más de quince años de experiencia en el desarrollo de software, siete de ellos trabajando en remoto.  
+
+  
+Apasionado de la tecnología y entusiasta de las metodologías ágiles. 
+Me encanta aprender, no sólo de tecnología y negocio. Mi hijo me está enseñando a ser padre y a veces me pierdo cuando salgo por el monte."
+        avatar: /remoto/img/mario.jpg
+        links: 
+            twitter: https://twitter.com/mariotux
+        talk:
+            title: "La oficina en tu mochila"
+            description: ""
+
+            
+    "zigor":
+        time: 11:30 AM
+        type: talk
+        name: Zigor Samaniego
+        bio:  "Zigor Samaniego es ilustrador freelance especializado en lettering e imagen publicitaria.  
+          
+
+        Después de trabajar muchos años en el mundo de las infografías arquitectónicas y el diseño gráfico, decide dejarlo todo y dedicarse únicamente a su faceta como ilustrador 3D. 
+        Trabaja tanto para pequeñas startups tecnológicas como para agencias de publicidad tan grandes como Ogilvy Nueva York."
+        avatar: /remoto/img/zigor.jpg
+        links: 
+            twitter: https://twitter.com/zigor
+        talk:
+            title: ¿Te han pagado hijo?
+            description: ""
+
+    "pausa-cafe":
+        time: 12:15 AM
+        type: slot
+        name: Pausa para el café
+
+
     
     "alex":
         time: 12:45 AM
@@ -79,24 +82,24 @@ Ha trabajado de forma habitual en dos zonas horarias distintas  (USA / España) 
             title: "USA: Historia de una ida y una vuelta"
             description: ""
     
-    "mario":
-        time: 13:30 AM
+    "diego-rodriguez":
+        time: 13:15 AM
         type: talk
-        name: Mario Nunes
-        bio: "Mario trabaja como desarrollador de software en aspgems en remoto y cuenta con más de quince años de experiencia en el desarrollo de software, siete de ellos trabajando en remoto.  
+        name: Diego Rodriguez
+        bio:  "Formador en LinkedIn Learning y trabajando en remoto en Nitsnets.    
 
-  
-Apasionado de la tecnología y entusiasta de las metodologías ágiles. 
-Me encanta aprender, no sólo de tecnología y negocio. Mi hijo me está enseñando a ser padre y a veces me pierdo cuando salgo por el monte."
-        avatar: /remoto/img/mario.jpg
+Tengo [un audio de diez minutos](https://anchor.fm/arketipo/episodes/En-qu-ando-metido-2018-e2kmbf) solo para contar lo que hago."
+        avatar: /remoto/img/diego.jpg
         links: 
-            twitter: https://twitter.com/mariotux
+            twitter: https://twitter.com/arketipo
         talk:
-            title: "La oficina en tu mochila"
-            description: ""
+            title: Triunfar sin emigrar
+            description: "Contaré mi visión personal sobre el mundo del trabajo digital, un tema con el que estoy obsesionado desde hace diez años.   
+              
+            Y también mi experiencia personal sobre como buscarse la vida en el entorno tecnológico, crear conexiones y aprovechar las oportunidades. Un punto de vista alejado de los edulcorantes pero lleno de optimismo y energía."
               
     "networking":
-        time: 14:15 PM
+        time: 14:00 PM
         type: slot
         name: Despedida y networking 
 

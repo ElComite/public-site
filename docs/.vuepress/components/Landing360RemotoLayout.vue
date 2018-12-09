@@ -27,7 +27,7 @@
           <section id="description">
             <h4 class="hashtag">#360remoto</h4>
             <Content custom/>
-            <a href="" class="cta button">Entradas aún no disponibles</a>
+            <a target="_blank" href="https://www.meetup.com/es-ES/elcomite/events/257061607/" class="cta button">Apúntate aquí</a>
           </section>
 
 

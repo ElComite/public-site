@@ -93,7 +93,7 @@ Tengo [un audio de diez minutos](https://anchor.fm/arketipo/episodes/En-qu-ando-
         links: 
             twitter: https://twitter.com/arketipo
         talk:
-            title: **Triunfar sin emigrar**
+            title: Triunfar sin emigrar
             description: "Contaré mi visión personal sobre el mundo del trabajo digital, un tema con el que estoy obsesionado desde hace diez años.   
               
             Y también mi experiencia personal sobre como buscarse la vida en el entorno tecnológico, crear conexiones y aprovechar las oportunidades. Un punto de vista alejado de los edulcorantes pero lleno de optimismo y energía."
